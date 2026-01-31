@@ -4,7 +4,7 @@ import { CoinDetail } from "./pages/CoinDetail";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-vite-deploy">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coin/:id" element={<CoinDetail />} />
